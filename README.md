@@ -119,3 +119,42 @@ This is where detection turns into execution.
 ```bash
 npm install
 npm run dev
+Expected output:
+
+Threat Summary
+
+Rescue Order
+
+Audit Log
+
+Final State: Safe_State
+
+Reproducibility
+
+This repository is reproducible at the workflow level.
+
+It includes:
+
+prompt design
+
+JSON schemas
+
+mock event data
+
+state machine logic
+
+constrained response path
+
+audit log outputs
+
+Proof of Defense
+
+Every successful response audit log becomes a Proof of Defense.
+
+That is the final output of the system:
+not only a warning,
+but an executed defensive response recorded as an auditable event.
+
+One-line summary
+
+Lobster Aegis 2.0 does not merely alert users. It turns threat intent into machine-executable defensive response.
