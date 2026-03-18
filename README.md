@@ -110,12 +110,14 @@ This is where detection turns into execution.
 - `prompts/` — system prompt and role prompts
 - `schemas/` — threat summary, rescue order, and audit log schemas
 - `mock-data/` — suspicious event, threat summary, rescue order, audit log
-- `screenshots/` — demo frames and proof visuals
-- `videos/` — demo references
 - `src/` — minimal TypeScript workflow implementation
 
 ---
+## Quick Start
 
+```bash
+npm install
+npm run dev
 ## Reproducibility
 
 This repository is reproducible at the workflow level.
@@ -127,7 +129,6 @@ It includes:
 - mock event data
 - state machine logic
 - constrained response path
-- video demonstration
 - audit log outputs
 
 ---
