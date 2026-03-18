@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ThreatSummary",
+  "type": "object",
+  "required": [
+    "threat_type",
+    "threat_level",
+    "wallet_address",
+    "asset_symbol",
+    "estimated_exposure",
+    "suspicious_contract",
+    "trigger_event",
+    "reasoning",
+    "recommended_action",
+    "execution_priority",
+    "requires_human_confirmation",
+    "safe_target_address",
+    "audit_tags"
+  ],
+  "properties": {
+    "threat_type": { "type": "string" },
+    "threat_level": { "type": "string" },
+    "wallet_address": { "type": "string" },
+    "asset_symbol": { "type": "string" },
+    "estimated_exposure": { "type": "string" },
+    "suspicious_contract": { "type": "string" },
+    "trigger_event": { "type": "string" },
+    "reasoning": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "recommended_action": { "type": "string" },
+    "execution_priority": { "type": "string" },
+    "requires_human_confirmation": { "type": "boolean" },
+    "safe_target_address": { "type": "string" },
+    "audit_tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
