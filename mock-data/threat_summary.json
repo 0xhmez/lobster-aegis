@@ -1,0 +1,23 @@
+{
+  "threat_type": "suspicious_approve",
+  "threat_level": "critical",
+  "wallet_address": "0xA1...9F2C",
+  "asset_symbol": "USDC",
+  "estimated_exposure": "10000 USDC",
+  "suspicious_contract": "0x9b...4A72",
+  "trigger_event": "untrusted spender approved with high allowance",
+  "reasoning": [
+    "spender is not in approved contract list",
+    "allowance size is abnormally high",
+    "wallet has no prior trusted interaction with this contract"
+  ],
+  "recommended_action": "REVOKE_APPROVAL",
+  "execution_priority": "immediate",
+  "requires_human_confirmation": false,
+  "safe_target_address": "0xSAFE...001",
+  "audit_tags": [
+    "critical-approve",
+    "stablecoin-exposure",
+    "wallet-protection"
+  ]
+}
