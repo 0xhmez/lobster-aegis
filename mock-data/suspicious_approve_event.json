@@ -1,0 +1,8 @@
+{
+  "wallet_address": "0xA1...9F2C",
+  "asset_symbol": "USDC",
+  "estimated_exposure": "10000 USDC",
+  "spender": "0x9b...4A72",
+  "event_type": "approve",
+  "risk_signal": "high_allowance_to_untrusted_contract"
+}
