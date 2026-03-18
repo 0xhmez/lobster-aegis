@@ -1,0 +1,13 @@
+{
+  "order_id": "AEGIS-001",
+  "response_action": "REVOKE_APPROVAL",
+  "wallet_address": "0xA1...9F2C",
+  "target_contract": "0x9b...4A72",
+  "asset_symbol": "USDC",
+  "priority": "immediate",
+  "execution_layer": "OKX Onchain OS",
+  "intent_compiler": "Claw",
+  "reason": "Critical suspicious approval with high stablecoin exposure",
+  "safe_target_address": "0xSAFE...001",
+  "status": "built"
+}
