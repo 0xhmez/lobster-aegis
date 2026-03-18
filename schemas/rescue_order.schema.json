@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RescueOrder",
+  "type": "object",
+  "required": [
+    "order_id",
+    "response_action",
+    "wallet_address",
+    "target_contract",
+    "asset_symbol",
+    "priority",
+    "execution_layer",
+    "intent_compiler",
+    "reason",
+    "safe_target_address",
+    "status"
+  ],
+  "properties": {
+    "order_id": { "type": "string" },
+    "response_action": { "type": "string" },
+    "wallet_address": { "type": "string" },
+    "target_contract": { "type": "string" },
+    "asset_symbol": { "type": "string" },
+    "priority": { "type": "string" },
+    "execution_layer": { "type": "string" },
+    "intent_compiler": { "type": "string" },
+    "reason": { "type": "string" },
+    "safe_target_address": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}
