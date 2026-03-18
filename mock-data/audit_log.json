@@ -1,0 +1,12 @@
+{
+  "event_id": "AEGIS-001",
+  "wallet": "0xA1...9F2C",
+  "threat_type": "suspicious_approve",
+  "threat_level": "critical",
+  "recommended_action": "REVOKE_APPROVAL",
+  "execution_result": "success",
+  "final_state": "Safe_State",
+  "execution_layer": "OKX Onchain OS",
+  "intent_compiler": "Claw",
+  "proof_type": "Proof of Defense"
+}
